@@ -8,6 +8,15 @@
 
 This might not work for your computer. Please check compatibility with your laptop using my specifications listed below. No garuantee. If you seek support, please DM me on [Reddit](https://reddit.com/u/randomappleboix)  
 
+**What works and what doesn´t**
+
+ -Working:
+     - 1
+     - 2
+
+ - Not working:
+     - Wifi
+   
 **Specs**
 
  - HP EliteBook 840 G3  
@@ -21,8 +30,8 @@ This might not work for your computer. Please check compatibility with your lapt
 **EFI**
 
  - Opencore 1.0.1
- - All kext (at least all important ones should have been update to the latest.
- - If you have more time than me and want to further improve this project, feel free to do so. Also, you can DM me yours and I will publish the changes on this repository.
+ - All kext (at least all important ones) should have been update to the latest.
+ - If you have more time than me and want to further improve this project, feel free to do so. Also, you can DM me your edit or recommendations and I will publish the changes on this repository.
  - I don´t have all that much time, but I will try to always keep this updated.
 
 **Other important stuff**
@@ -31,4 +40,4 @@ This might not work for your computer. Please check compatibility with your lapt
  - You will also have to install macOS to a USB, refer to [this part of Dortania´s guide](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/windows-install.html) for that.
  - When troubleshooting, refer to [Dortania´s troubleshooting section](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/troubleshooting.html) or to the [Hackintosh subreddit](https://reddit.com/r/hackintosh)
  - Wifi doesn´t work and never will natively, you have to use ethernet for the installation, then download [Heliport](https://github.com/OpenIntelWireless/HeliPort/releases/tag/v1.5.0) and add it to the login applications.
- - Tested on Sonoma 14.4.1. Will update you when I update.
+ - Tested on Sonoma 14.4.1. Will update you when I update. (Spoiler: Might try Sequoia later...)
