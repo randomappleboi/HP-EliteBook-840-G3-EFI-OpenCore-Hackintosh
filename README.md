@@ -13,6 +13,8 @@ This might not work for your computer. Please check compatibility with your lapt
  - Working:
      - Trackpad
      - Keyboard
+     - Bloetooth
+     - Speaker
      - Display port
      - SD card reader
      - Most other ports (unable to test: big card reader, SIM slot)
