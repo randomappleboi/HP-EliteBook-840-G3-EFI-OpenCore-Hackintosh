@@ -2,6 +2,8 @@
 
 ## Opencore EFI folder for HP ELiteBook 840 G3  
 
+![Screenshot](https://github.com/randomappleboi/Hp-EliteBook-840-G3-EFI/raw/main/screenshot.png
+
 **Warnings:**  
 
 This might not work for your computer. Please check compatibility with your laptop using my specifications listed below. No garuantee. If you seek support, please DM me on [Reddit](https://reddit.com/u/randomappleboix)  
@@ -28,3 +30,5 @@ This might not work for your computer. Please check compatibility with your lapt
  - You will have to modify you bios settings, please refer to [Dortania´s Guide](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/skylake.html#intel-bios-settings) for that.
  - You will also have to install macOS to a USB, refer to [this part of Dortania´s guide](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/windows-install.html) for that.
  - When troubleshooting, refer to [Dortania´s troubleshooting section](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/troubleshooting.html) or to the [Hackintosh subreddit](https://reddit.com/r/hackintosh)
+ - Wifi doesn´t work and never will natively, you have to use ethernet for the installation, then download [Heliport](https://github.com/OpenIntelWireless/HeliPort/releases/tag/v1.5.0) and add it to the login applications.
+ - Tested on Sonoma 14.4.1. Will update you when I update.
