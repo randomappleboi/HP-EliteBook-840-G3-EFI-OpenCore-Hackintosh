@@ -11,11 +11,17 @@ This might not work for your computer. Please check compatibility with your lapt
 **What works and what doesn´t**
 
  - Working:
-     - 1
-     - 2
+     - Trackpad
+     - Keyboard
+     - Display port
+     - SD card reader
+     - Most other ports (unable to test: big card reader, SIM slot)
+     - Basically everything else
 
  - Not working:
-     - Wifi
+     - Wifi, only with heliport (so no AirDrop unfortunately)
+     - Display out via Dock (USB via Dock works)
+     - yet to be dicovered
    
 **Specs**
 
@@ -41,3 +47,4 @@ This might not work for your computer. Please check compatibility with your lapt
  - When troubleshooting, refer to [Dortania´s troubleshooting section](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/troubleshooting.html) or to the [Hackintosh subreddit](https://reddit.com/r/hackintosh)
  - Wifi doesn´t work and never will natively, you have to use ethernet for the installation, then download [Heliport](https://github.com/OpenIntelWireless/HeliPort/releases/tag/v1.5.0) and add it to the login applications.
  - Tested on Sonoma 14.4.1. Will update you when I update. (Spoiler: Might try Sequoia later...)
+ - When using a NVMe drive you might have to manually add [NVMefix.kext](https://github.com/acidanthera/NVMeFix/releases)
