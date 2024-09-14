@@ -2,7 +2,7 @@
 
 ## Opencore EFI folder for HP ELiteBook 840 G3  
 
-![Screenshot](https://github.com/randomappleboi/Hp-EliteBook-840-G3-EFI/raw/main/screenshot.png
+![Screenshot]((https://github.com/randomappleboi/HP-EliteBook-840-G3-EFI/blob/main/Screenshot)
 
 **Warnings:**  
 
