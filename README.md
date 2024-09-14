@@ -10,7 +10,7 @@ This might not work for your computer. Please check compatibility with your lapt
 
 **What works and what doesn´t**
 
- -Working:
+ - Working:
      - 1
      - 2
 
