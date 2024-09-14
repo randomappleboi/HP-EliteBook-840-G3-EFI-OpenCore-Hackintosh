@@ -4,7 +4,7 @@
 
 **Warnings:**
 
-This might not work for your computer. Please check compatibility with your laptop using my specifications listed below. No garuantee. If you seek support, please DM me on [Reddit] (reddit.com/u/randomappleboix)
+This might not work for your computer. Please check compatibility with your laptop using my specifications listed below. No garuantee. If you seek support, please DM me on [Reddit](reddit.com/u/randomappleboix)
 
 **Specs**
 
