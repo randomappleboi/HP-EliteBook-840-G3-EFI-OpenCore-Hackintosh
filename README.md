@@ -2,7 +2,7 @@
 
 ## Opencore EFI folder for HP ELiteBook 840 G3  
 
-![Screenshot](https://github.com/randomappleboi/HP-EliteBook-840-G3-EFI/blob/main/Sonoma.png)
+![Screenshot](https://github.com/randomappleboi/HP-EliteBook-840-G3-EFI/blob/main/Sequoia.png)
 
 **Warnings:**  
 
@@ -50,3 +50,8 @@ This might not work for your computer. Please check compatibility with your lapt
  - Wifi doesn´t work and never will natively, you have to use ethernet for the installation, then download [Heliport](https://github.com/OpenIntelWireless/HeliPort/releases/tag/v1.5.0) and add it to the login applications.
  - Tested on Sonoma 14.4.1. Will update you when I update. (Spoiler: Might try Sequoia later...)
  - When using a NVMe drive you might have to manually add [NVMefix.kext](https://github.com/acidanthera/NVMeFix/releases)
+
+**Legacy Screenshots:**
+
+![Screenshot](https://github.com/randomappleboi/HP-EliteBook-840-G3-EFI/blob/main/Sonoma.png)
+
