@@ -4,6 +4,8 @@
 
 ![Screenshot](https://github.com/randomappleboi/HP-EliteBook-840-G3-EFI/blob/main/Sequoia.png)
 
+macOS Sequoia 15.0 final beta
+
 **Warnings:**  
 
 This might not work for your computer. Please check compatibility with your laptop using my specifications listed below. No garuantee. If you seek support, please DM me on [Reddit](https://reddit.com/u/randomappleboix)  
@@ -54,4 +56,6 @@ This might not work for your computer. Please check compatibility with your lapt
 **Legacy Screenshots:**
 
 ![Screenshot](https://github.com/randomappleboi/HP-EliteBook-840-G3-EFI/blob/main/Sonoma.png)
+
+macOS Sonoma 14.4.1
 
