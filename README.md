@@ -37,22 +37,21 @@ This might not work for your computer. Please check compatibility with your lapt
 You have to fill in the SMBIOS information yourself. This means giving your MacBook a serial number, amongst other things. This should take about 10 Minutes, definitly no more than 15 Minutes. Don't worry, it's super easy.
 
 1. Download [ProperTree](https://github.com/corpnewt/ProperTree).
-   1.1 Launch ProperTree/OCAT.
-   1.2 Press *⌘ + o* and locate the config.plist file (EFI > OC > config.plist).
-3. Download [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS).
-   2.1 Open it in terminal (instructions on the GitHub page)
-   2.2 Select option 1 and press enter.
-   2.3 Select option 3 and press enter.
-   2.4 Type *"MacBookPro15,2"* and press enter.
-4. Populate your PlatformInfo.
-   4.1 Locate the *"PlatformInfo > Generic"* section in the config.plist.
-   4.2 Copy the *"Serial"* (from GenSMBIOS) to *"Generic > SystemSerialNumber"*.
-   4.3 Copy the *"Board Serial"* to *"Generic > MLB"*.
-   4.4 Copy the *"SmUUID"* to *"Generic > SystemUUID"*.
-   4.5 COpy the *"Apple ROM"* to *"Generic > SystemUUID"*.
+   1.1 Launch ProperTree/OCAT.  
+   1.2 Press *⌘ + o* and locate the config.plist file (EFI > OC > config.plist).  
+3. Download [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS).  
+   2.1 Open it in terminal (instructions on the GitHub page).  
+   2.2 Select option 1 and press enter.  
+   2.3 Select option 3 and press enter.  
+   2.4 Type *"MacBookPro15,2"* and press enter.  
+4. Populate your PlatformInfo.  
+   4.1 Locate the *"PlatformInfo > Generic"* section in the config.plist.  
+   4.2 Copy the *"Serial"* (from GenSMBIOS) to *"Generic > SystemSerialNumber"*.  
+   4.3 Copy the *"Board Serial"* to *"Generic > MLB"*.  
+   4.4 Copy the *"SmUUID"* to *"Generic > SystemUUID"*.  
+   4.5 COpy the *"Apple ROM"* to *"Generic > SystemUUID"*.  
    
-That's it! This should take about 10 Minutes, definitly no more than 15 Minutes. 
-
+**That's it!** Refer to [this guide](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/skylake.html#platforminfo) if you seek further information/images.
 
 
 **Specs**
