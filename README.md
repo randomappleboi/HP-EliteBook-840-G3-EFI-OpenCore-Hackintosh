@@ -4,7 +4,7 @@
 
 ![Screenshot](https://raw.githubusercontent.com/randomappleboi/HP-EliteBook-840-G3-EFI/refs/heads/main/Sequoia.png)
 
-macOS Sequoia 15.0 final beta
+macOS Sequoia 15.0 RC
    
    
 ### Warnings: 
