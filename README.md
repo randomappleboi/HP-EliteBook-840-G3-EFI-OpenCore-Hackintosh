@@ -9,25 +9,39 @@ macOS Sequoia 15.0 final beta
    
 **Warnings:**  
 
-This might not work for your computer. Please check compatibility with your laptop using my specifications listed below. No garuantee. If you seek support, please DM me on [Reddit](https://reddit.com/u/randomappleboix)  
+This might not work for your computer. Please check compatibility with your laptop using my specifications listed below. No garuantee. If you seek support, please DM me on [Reddit](https://reddit.com/u/randomappleboix). Also, you'll need to to populate the SMBIOS yourself. Please refer to the SMBIOS part of this document.
 
 **What works and what doesn´t**
 
  - Working:
      - Trackpad
      - Keyboard
-     - Bloetooth
-     - Speaker
+     - Bluetooth
+     - Speakers
      - Display port
      - SD card reader
+     - Webcam
      - Most other ports (unable to test: big card reader, SIM slot)
      - Basically everything else
+     - Native Wifi (you *need* to follow my guide linked **here**, *or* use heliport and disable the native symbol in Settings > Control Center)
 
  - Not working:
-     - Wifi, only with heliport (so no AirDrop unfortunately)
      - Display out via Dock (USB via Dock works)
      - yet to be dicovered
-   
+
+ - Notes:
+     - Airdrop works from MacBook to iPhone, not the other way around (only after using my **tutorial**, not with heliport)
+
+**SMBIOS**
+
+You have to fill in the SMBIOS information yourself. This means giving your MacBook a serial number, amongst other things. Don't worry, it's super easy.
+
+1. Download [ProperTree](https://github.com/corpnewt/ProperTree) or OCAT to edit your config.plist. Open the config.plist located under EFI > OC.
+2. Download [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) and open it in terminal.
+
+
+
+
 **Specs**
 
  - HP EliteBook 840 G3  
@@ -40,10 +54,11 @@ This might not work for your computer. Please check compatibility with your lapt
 
 **EFI**
 
- - Opencore 1.0.1
- - All kext (at least all important ones) should have been update to the latest.
+ - Opencore 1.0.3
+ - All kext (at least all important ones) are updated to their latest version.
  - If you have more time than me and want to further improve this project, feel free to do so. Also, you can DM me your edit or recommendations and I will publish the changes on this repository.
  - I don´t have all that much time, but I will try to always keep this updated.
+ - **Do not redistribute without my explicit permission!**
 
 **Other important stuff**
 
