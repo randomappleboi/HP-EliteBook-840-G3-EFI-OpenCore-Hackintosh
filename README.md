@@ -1,6 +1,6 @@
-# HP EliteBook 840 G3 EFI  
+# HP EliteBook 840 G3 OpenCore Hackintosh EFI  
 
-## Opencore EFI folder for HP ELiteBook 840 G3  
+## Opencore EFI folder for HP EliteBook 840 G3  
 
 ![Screenshot](https://raw.githubusercontent.com/randomappleboi/HP-EliteBook-840-G3-EFI/refs/heads/main/Sequoia.png)
 
@@ -11,7 +11,7 @@ macOS Sequoia 15.0 final beta
 
 This might not work for your computer. Please check compatibility with your laptop using my specifications listed below. No garuantee. If you seek support, please DM me on [Reddit](https://reddit.com/u/randomappleboix). Also, you'll need to to populate the SMBIOS yourself. Please refer to the SMBIOS part of this document.
 
-**What works and what doesn´t**
+**What works and what doesn´t:**
 
  - Working:
      - Trackpad
@@ -34,11 +34,24 @@ This might not work for your computer. Please check compatibility with your lapt
 
 **SMBIOS**
 
-You have to fill in the SMBIOS information yourself. This means giving your MacBook a serial number, amongst other things. Don't worry, it's super easy.
+You have to fill in the SMBIOS information yourself. This means giving your MacBook a serial number, amongst other things. This should take about 10 Minutes, definitly no more than 15 Minutes. Don't worry, it's super easy.
 
-1. Download [ProperTree](https://github.com/corpnewt/ProperTree) or OCAT to edit your config.plist. Open the config.plist located under EFI > OC.
-2. Download [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) and open it in terminal.
-
+1. Download [ProperTree](https://github.com/corpnewt/ProperTree).
+   1.1 Launch ProperTree/OCAT.
+   1.2 Press *⌘ + o* and locate the config.plist file (EFI > OC > config.plist).
+3. Download [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS).
+   2.1 Open it in terminal (instructions on the GitHub page)
+   2.2 Select option 1 and press enter.
+   2.3 Select option 3 and press enter.
+   2.4 Type *"MacBookPro15,2"* and press enter.
+4. Populate your PlatformInfo.
+   4.1 Locate the *"PlatformInfo > Generic"* section in the config.plist.
+   4.2 Copy the *"Serial"* (from GenSMBIOS) to *"Generic > SystemSerialNumber"*.
+   4.3 Copy the *"Board Serial"* to *"Generic > MLB"*.
+   4.4 Copy the *"SmUUID"* to *"Generic > SystemUUID"*.
+   4.5 COpy the *"Apple ROM"* to *"Generic > SystemUUID"*.
+   
+That's it! This should take about 10 Minutes, definitly no more than 15 Minutes. 
 
 
 
