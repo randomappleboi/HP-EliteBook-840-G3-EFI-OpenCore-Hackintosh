@@ -2,7 +2,7 @@
 
 ## Opencore EFI folder for HP ELiteBook 840 G3  
 
-![Screenshot](Sequoia.png)
+![Screenshot](https://raw.githubusercontent.com/randomappleboi/HP-EliteBook-840-G3-EFI/refs/heads/main/Sequoia.png)
 
 macOS Sequoia 15.0 final beta
    
