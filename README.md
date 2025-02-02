@@ -7,11 +7,11 @@
 macOS Sequoia 15.0 final beta
    
    
-**Warnings:**  
+### Warnings: 
 
 This might not work for your computer. Please check compatibility with your laptop using my specifications listed below. No garuantee. If you seek support, please DM me on [Reddit](https://reddit.com/u/randomappleboix). Also, you'll need to to populate the SMBIOS yourself. Please refer to the SMBIOS part of this document.
 
-**What works and what doesn´t:**
+### Functionality:
 
  - Working:
      - Trackpad
@@ -32,7 +32,7 @@ This might not work for your computer. Please check compatibility with your lapt
  - Notes:
      - Airdrop works from MacBook to iPhone, not the other way around (only after using my **tutorial**, not with heliport)
 
-**SMBIOS**
+### SMBIOS
 
 You have to fill in the SMBIOS information yourself. This means giving your MacBook a serial number, amongst other things. This should take about 10 Minutes, definitly no more than 15 Minutes. Don't worry, it's super easy.
 
@@ -52,9 +52,9 @@ You have to fill in the SMBIOS information yourself. This means giving your MacB
    4.5 COpy the *"Apple ROM"* to *"Generic > SystemUUID"*.  
    
 **That's it!** Refer to [this guide](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/skylake.html#platforminfo) if you seek further information/images.
-
-
-**Specs**
+  
+  
+### Specs
 
  - HP EliteBook 840 G3  
  - Intel Core i5 6300U  
@@ -64,15 +64,14 @@ You have to fill in the SMBIOS information yourself. This means giving your MacB
  - Intel AC 8260 Wireless card
  - 500GB Samsung SATA SSD
 
-**EFI**
+### EFI
 
  - Opencore 1.0.3
  - All kext (at least all important ones) are updated to their latest version.
- - If you have more time than me and want to further improve this project, feel free to do so. Also, you can DM me your edit or recommendations and I will publish the changes on this repository.
  - I don´t have all that much time, but I will try to always keep this updated.
  - **Do not redistribute without my explicit permission!**
 
-**Other important stuff**
+### Other important stuff
 
  - You will have to modify you bios settings, please refer to [Dortania´s Guide](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/skylake.html#intel-bios-settings) for that.
  - You will also have to install macOS to a USB, refer to [this part of Dortania´s guide](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/windows-install.html) for that.
@@ -81,7 +80,7 @@ You have to fill in the SMBIOS information yourself. This means giving your MacB
  - Tested on Sonoma 14.4.1 and 15.0 final beta.
  - When using a NVMe drive you might have to manually add [NVMefix.kext](https://github.com/acidanthera/NVMeFix/releases)
 
-**Legacy Screenshots:**
+### Legacy Screenshots:
 
 ![Screenshot](https://github.com/randomappleboi/HP-EliteBook-840-G3-EFI/blob/main/Sonoma.png)
 
